@@ -1,12 +1,14 @@
 # Prediksi Ledakan Alga dengan Varian RNN
 
+
+## Deskripsi
 Proyek ini membangun sistem peringatan dini ledakan alga (algal bloom) dengan memprediksi kenaikan kadar Chlorophyll-a berbasis deret waktu. Saya membandingkan 6 arsitektur Recurrent Neural Network (RNN) dan menemukan bahwa GRU memberikan performa terbaik pada data ini.
 
-## Ringkasan
+## Gambaran Umum
 - **Fokus**: peningkatan kadar Klorofil-a untuk peringatan dini algal bloom
 - **Model dibandingkan**: RNN, LSTM, GRU, BiRNN, BiLSTM, BiGRU
 - **Model terbaik**: GRU
-- **Dataset**: `daily_mean.csv` (time series harian)
+- **Dataset**: `daily_mean.csv` 
   
 ## Cara Menjalankan 
 1. Buka Google Colab 
